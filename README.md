@@ -34,7 +34,6 @@ The project demonstrates practical industry-level QA automation concepts includi
 - Reusable page classes
 - Explicit waits
 - Structured test execution
-- Test reporting
 
 ---
 
@@ -63,69 +62,12 @@ The project demonstrates practical industry-level QA automation concepts includi
 
 ---
 
-# 🏗️ Framework Architecture
-
-```bash
-SauceDemo-Automation/
-│
-├── src/test/java
-│   ├── pages/
-│   │   ├── LoginPage.java
-│   │   ├── ProductsPage.java
-│   │   ├── CartPage.java
-│   │   ├── CheckoutPage.java
-│   │   └── MenuPage.java
-│   │
-│   ├── tests/
-│   │   ├── CheckoutTest.java
-│   │   ├── InventoryTest.java
-│   │   └── LoginTest.java
-│   │
-│   └── utils/
-│       ├── BaseTest.java
-│       ├── DriverFactory.java
-│       └── TestData.java
-│
-├── pom.xml
-└── testng.xml
-```
-
----
-
-# 🖼️ Project Screenshots
-
-## 🔐 Login Automation
-
-![Login Automation](https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1400&auto=format&fit=crop)
-
----
-
-## 🛒 Cart & Checkout Automation
-
-![Cart Automation](https://images.unsplash.com/photo-1523475472560-d2df97ec485c?q=80&w=1400&auto=format&fit=crop)
-
----
-
-## ✅ Test Execution
-
-![Test Execution](https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1400&auto=format&fit=crop)
-
----
-
-# 🎥 Demo Video
-
-> Replace this link with your actual YouTube, Loom, or LinkedIn demo video.
-
-[![Watch the Demo](https://img.shields.io/badge/Watch-Demo_Video-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/)
-
----
-
 # ⚙️ Setup Instructions
 
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/saucedemo-test-automation.git
+git clone https://github.com/dilushisewwandi/SauceDemo-Automation-POM.git
 ```
 
 ---
@@ -191,14 +133,6 @@ mvn -Dtest=LoginTest test
 
 ---
 
-# 📈 Test Reporting
-
-The framework supports:
-
-- TestNG Reports
-- Console Execution Logs
-- Pass/Fail Validation
-
 ### Future Enhancements
 
 - Extent Reports
@@ -233,13 +167,6 @@ This project demonstrates:
 - Scalable automation architecture
 - Practical Selenium & TestNG knowledge
 
-It reflects the skills required for:
-
-- QA Automation Engineer
-- SDET Intern
-- Software QA Intern
-- Junior Test Automation Engineer
-
 ---
 
 # 🚀 Future Improvements
@@ -259,24 +186,6 @@ Planned upgrades for the framework:
 # 👩‍💻 Author
 
 ## Dilushika Sewwandi
-
-Aspiring QA Engineer | Selenium Automation Tester | Software Engineering Undergraduate
-
-### Connect With Me
-
-- LinkedIn: https://linkedin.com/in/yourprofile
-- GitHub: https://github.com/yourusername
-- Portfolio: https://yourportfolio.com
-
----
-
-# ⭐ Support
-
-If you found this project useful:
-
-⭐ Star the repository  
-🍴 Fork the project  
-📢 Share with others  
 
 ---
 
